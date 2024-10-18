@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * function_name - Prints, single line
- * @parameterx: Something
+ * main - Prints
  * Return: 0
  */
 int main(void)
