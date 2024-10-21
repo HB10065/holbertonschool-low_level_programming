@@ -10,7 +10,8 @@ int main(void)
 	for (ascii = 97; ascii < 123; ascii++)
 	{
 		putchar(ascii);
-		putchar(10);
+		if (ascii == 122)
+			putchar(10);
 	}
 	return (0);
 }
