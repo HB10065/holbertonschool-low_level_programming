@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	int hexnum = '0', hexlet = 'A';
+	int hexnum = '0', hexlet = 'a';
 
-	while (hexnum <= '9' || hexlet <= 'F')
+	while (hexnum <= '9' || hexlet <= 'f')
 	{
 		if (hexnum <= '9')
 		{
