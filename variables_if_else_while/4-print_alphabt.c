@@ -9,7 +9,7 @@ int main(void)
 
 	for (ascii = 97; ascii <= 123; ascii++)
 	{
-		if (ascii != 101 || ascii != 113 || ascii != 123)
+		if (ascii != 101 && ascii != 113 && ascii != 123)
 			putchar(ascii);
 		else if (ascii == 101 || ascii == 113)
 		{
