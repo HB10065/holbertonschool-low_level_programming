@@ -10,7 +10,7 @@ int main(void)
 	for (asciim = 97, asciiM = 65; asciim < 123 || asciiM < 91; asciim++)
 	{
 		putchar(asciim);
-		if (asciim >= 91)
+		if (asciim >= 123)
 		{
 			putchar(asciiM);
 			asciiM = asciiM + 1;
