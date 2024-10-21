@@ -7,15 +7,19 @@ int main(void)
 {
 	int asciim, asciiM;
 
-	for (asciim = 97, asciiM = 65; asciim < 123 || asciiM < 91; asciim++)
+	for (asciim = 97, asciiM = 65; asciim < 123 || asciiM < 92; asciim++)
 	{
-		putchar(asciim);
-		if (asciim >= 123)
+		if (asciim < 123)
+			putchar(asciim);
+		else if (asciiM < 91)
 		{
 			putchar(asciiM);
-			asciiM = asciiM + 1;
-			if (asciiM == 90)
-				putchar(10);
+			asciiM++;
+		}
+		else
+		{
+			putchar(10);
+			asciiM++;
 		}
 	}
 	return (0);
