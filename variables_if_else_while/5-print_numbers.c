@@ -12,6 +12,7 @@ int main(void)
 		printf("%d", num);
 		if (num == 9)
 			putchar(10);
+		num++;
 	}
 	return (0);
 }
