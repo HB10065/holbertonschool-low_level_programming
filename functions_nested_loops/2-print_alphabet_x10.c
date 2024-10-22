@@ -1,8 +1,9 @@
+#inlcude "main.h"
 /**
  * print_alphabet_x10 - prints the alphabet ten times
  * Return: 0
  */
-int print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int i = 0, alph;
 
@@ -10,6 +11,11 @@ int print_alphabet_x10(void)
 	{
 		alph = 'a';
 		while (alph <= 'z')
-
+		{
+			_putchar(alph);
+			alph++;
+		}
+		_putchar(10);/*new line*/
+		i++;
 	}	
 }
