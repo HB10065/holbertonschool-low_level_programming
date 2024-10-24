@@ -1,26 +1,19 @@
 #include "main.h"
 /**
- *
+ * jack_bauer - Prints every minute of a day
  */
 void jack_bauer(void)
 {
-	int H1 = 0, H2 = 0, M1 = 0 M2 = 0;
+	int H1 = 0, H2 = 0, M1 = 0, M2 = 0;
 
-	_putchar(H1 + '0');
-	_putchar(H2 + '0');
-	_putchar(':');
-	_putchar(M1 + '0');
-	_putchar(M2 + '0');
-	_putchar(10);/* salto de linea */
-	M2++;
 	while (H1 < 3)
 	{
 		_putchar(H1 + '0');
-        	_ptchar(H2 + '0');
-        	_putchar(':');
-        	_putchar(M1 + '0');
-        	_putchar(M2 + '0');
-        	_putchar(10);/* salto de linea */
+		_putchar(H2 + '0');
+		_putchar(':');
+		_putchar(M1 + '0');
+		_putchar(M2 + '0');
+		_putchar(10);/* salto de linea */
 		M2++;
 		if (M2 > 9)
 		{
