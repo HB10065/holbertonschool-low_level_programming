@@ -12,7 +12,11 @@ void times_table(void)
 		{
 			num = c * f;
 			if (num < 10)
+			{
+				if (f != 0)
+					_putchar(' ');
 				_putchar(num + '0');
+			}
 			else
 			{
 				ldnum = num % 10;
@@ -24,8 +28,6 @@ void times_table(void)
 			{
 				_putchar(',');
 				_putchar(' ');
-				if (num < 10)
-					_putchar(' ');
 			}
 			else
 				_putchar(10);
