@@ -1,18 +1,17 @@
-#include "main"
+#include "main.h"
+#include <stdio.h>
 /**
- *
+ * print_to_98 - Prints from the given numer to 98
+ * @n: given number
  */
 void print_to_98(int n)
 {
-	int u, d, c;
 
-	if (n > 98)
+	for (n = n; n != 98 ; n--)
 	{
-		for (n = n; n >= 98; n--)
-		{
-			if (n < 100)
-			{
-			u = n % 10
-			}
-		}
+		printf("%d, ", n);
+		if (n < 98)
+			n = n + 2;
+	}
+	printf("%d\n", n);
 }
