@@ -12,7 +12,7 @@ void print_diagonal(int n)
 	{
 		if (n != 0)
 		{
-			for (j = 0; j <= n; j++)
+			for (j = 0; j <= i; j++)
 				_putchar(' ');
 			_putchar(92); /*inverse diagonal slash*/
 		}
