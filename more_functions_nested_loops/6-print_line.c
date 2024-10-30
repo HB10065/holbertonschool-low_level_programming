@@ -11,6 +11,7 @@ void print_line(int n)
 	while (i < n)
 	{
 		_putchar('_');
+		i++;
 	}
 	_putchar(10); /*new line*/
 }
