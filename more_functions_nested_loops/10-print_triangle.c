@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- *
+ * print_triangle - imprime un triangulo
+ * @size: tama√o del triangulo
  */
 void print_triangle(int size)
 {
@@ -9,7 +10,7 @@ void print_triangle(int size)
 
 	while (i <= size)
 	{
-		j = size - (1 * i);
+		j = size - i;
 		while (j > 0)
 		{
 			_putchar(' ');
