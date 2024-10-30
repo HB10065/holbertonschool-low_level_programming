@@ -14,8 +14,10 @@ void print_square(int size)
 		while (j < size)
 		{
 			_putchar('#');
+			j++;
 		}
 		_putchar(10); /*new line in ascii*/
+		i++;
 	}
 	if (size <= 0)
 		_putchar(10);
