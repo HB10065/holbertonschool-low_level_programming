@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * rev_string - prints backwards
+ * rev_string - sheesh
  * @s: given string
  */
 void rev_string(char *s)
 {
-        int i = 0;
+        int i = 0, j = 0;
 
         while (s[i] != '\0')
                 i++;
+	char st[i];
         i--;
         while (i >= 0)
         {
-                _putchar(s[i]);
+                st[j] = s[i];
+		j++;
                 i--;
         }
-        _putchar(10);/*nueva linea*/
+	*s = st
 }
