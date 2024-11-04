@@ -8,9 +8,11 @@
  */
 void print_array(int *a, int n)
 {
-	int i = 0;
+	int i = 0, j = 0;
 
-	while (i < n)
+	while (a[j] != 0)
+		j++;
+	while (i < n && n <= j)
 	{
 		if (i != n - 1)
 			printf("%d, ", a[i]);
