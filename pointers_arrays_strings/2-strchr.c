@@ -8,9 +8,12 @@
  */
 char *_strchr(char *s, char c)
 {
-	int size, i;
+	int size = 0, i;
 
-	size = _strlen(s[0]);
+	while (s[size] != '\0')
+	{
+		size++;
+	}
 	for (i = 0 ; s[i] != c || s[i] != '\0'; i++)
 		{
 		}
