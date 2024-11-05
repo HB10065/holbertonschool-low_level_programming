@@ -5,6 +5,7 @@
  * @s: given string
  * @b: character given
  * @n: number of bytes to be changed
+ * Return: memory direction of given string
  */
 char *_memset(char *s, char b, unsigned int n)
 {
