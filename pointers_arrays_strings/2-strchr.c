@@ -10,12 +10,12 @@ char *_strchr(char *s, char c)
 {
 	int size, i;
 
-	size = _strlen(*s);
+	size = _strlen(s[0]);
 	for (i = 0 ; s[i] != c || s[i] != '\0'; i++)
 		{
 		}
 	if (i == size)
 		return ('\0');
 	else
-		return (s[i]);
+		return (*s[i]);
 }
