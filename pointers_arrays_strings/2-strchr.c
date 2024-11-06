@@ -15,12 +15,12 @@ char *_strchr(char *s, char c)
 	{
 		size++;
 	}
-	for (i = 0 ; i <= size; i++)
+	for (i = 0 ; i < size; i++)
 		{
 			if (s[i] == c)
 				break;
 		}
-	if (i > size)
+	if (i + 1 > size)
 		return (NULL);
 	else
 		return (&s[i]);
