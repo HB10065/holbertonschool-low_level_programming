@@ -20,5 +20,5 @@ char *_strchr(char *s, char c)
 	if (i == size)
 		return ('\0');
 	else
-		return (&s[i]);
+		return (s[i]);
 }
