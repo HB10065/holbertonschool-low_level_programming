@@ -2,7 +2,7 @@
 #include <stddef.h>
 
 /**
- * *_strpbrk - Returns the memory direction of the first byte of s that is also on accept
+ * *_strpbrk - checks if a String has the characters of another
  * @s: String to analize
  * @accept: String with accepted characters
  * Return: memory direction of a byte of s or NULL if there is no match
