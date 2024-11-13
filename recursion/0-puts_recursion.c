@@ -13,7 +13,10 @@ void precursion(int *a, char *s)
 		*a = *a + 1;
 		precursion(a, 	s);
 	}
-	_putchar(10);
+	else
+	{
+		_putchar(10);
+	}
 }
 /*
  * _puts_recursion - imitates put
