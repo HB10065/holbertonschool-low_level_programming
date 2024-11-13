@@ -10,7 +10,7 @@ void precursion(int *a, char*s)
 	if (s[*a] != '\0')
 	{
 		_putchar(s[*a]);
-		*a++;
+		*a = *a + 1;
 		precursion(*a, *s);
 	}
 }
