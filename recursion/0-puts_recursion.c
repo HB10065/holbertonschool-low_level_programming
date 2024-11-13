@@ -21,5 +21,6 @@ void precursion(int *a, char *s)
 void _puts_recursion(char *s)
 {
 	int a = 0;
-	precursion(a, *s);
+
+	precursion(&a, *s);
 }
