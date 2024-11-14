@@ -3,7 +3,9 @@
 #include <stddef.h>
 
 /**
- *
+ * _strdup - imita strdup
+ * @str: string dado a copiar
+ * Return: si str en NULL o el malloc falla devuelve NULL, sino devuelve a
  */
 char *_strdup(char *str)
 {
