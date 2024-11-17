@@ -23,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 			a[x] = ' ';
 	}
 
-	for (; y <= j; y++)
+	for (y = 0; y <= j; y++)
 	{
 		a[x] = s2[y];
 	}
