@@ -29,6 +29,8 @@ char *str_concat(char *s1, char *s2)
 			a[x + y] = s2[y];
 		return (a);
 	}
+	else if (s1 == NUL && s2 == NULL)
+		return (NULL);
 	else if (s1 == NULL && s2 != NULL)
 	{
 		a = malloc(j + 1);
@@ -47,6 +49,4 @@ char *str_concat(char *s1, char *s2)
 			a[x] = s1[x];
 		return (a);
 	}
-	else
-		return (NULL);
 }
