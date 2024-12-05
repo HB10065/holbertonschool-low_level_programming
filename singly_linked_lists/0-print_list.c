@@ -6,11 +6,11 @@
 size_t print_list(const list_t *h)
 {
 	int nodos;
-	list_t a = *h;
+	list_t a = &h;
 	while (a -> next != NULL)
 	{
 		printf("[%d] %s\n", a -> len, a -> str);
-		a = a -> *next;
+		a = a -> &next;
 		nodos++;
 	}
 	return (nodos);
