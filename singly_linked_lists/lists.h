@@ -8,5 +8,5 @@ typedef struct list_s
 	unsigned int len;
 	struct list_s *next;
 }
-size_t print_list(const list_t *h);
+size_t print_list(const list_s *h);
 #endif
