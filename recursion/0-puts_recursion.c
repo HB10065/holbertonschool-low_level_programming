@@ -18,7 +18,7 @@ void precursion(int *a, char *s)
 		_putchar(10);
 	}
 }
-/*
+/**
  * _puts_recursion - imitates put
  * @s: String to print
  */
