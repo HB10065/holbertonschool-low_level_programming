@@ -9,7 +9,6 @@ void precursion(int *a, char *s)
 	{
 		*a = *a + 1;
 		precursion(a, s);
-		_putchar(s[*a]);
 	}
 	else
 	{
