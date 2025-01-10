@@ -5,7 +5,7 @@
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-	dlistint_t current;
+	dlistint_t *current;
 	size_t i = 1;
 
 	if (h == NULL)
