@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_node - agrega un nodo al inicio de una single list
+ * add_node_end - agrega un nodo al inicio de una single list
  * @head: siguiente nodo
  * @str: dato a guardar
  * Return: direccion al nuev nodo, si falla retorna NULL
