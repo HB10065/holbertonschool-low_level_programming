@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <strings.h>
 
 /**
  * add_node - agrega un nodo al inicio de una single list
