@@ -13,6 +13,8 @@ void free_list(list_t *head)
 		past = current;
 		current = current->next;
 		free(past->str);
+		free(past);
 	}
 	free(current->str);
+	free(current);
 }
