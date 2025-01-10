@@ -12,7 +12,7 @@ list_t *add_node_end(list_t **head, const char *str)
         char *str_copy;
         unsigned int i = 0;
 
-	if (head == NULL)
+	if (*head == NULL)
 		return(NULL);
         if (str == NULL)
                 return (NULL);
