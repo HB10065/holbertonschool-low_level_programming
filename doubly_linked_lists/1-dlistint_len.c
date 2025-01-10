@@ -1,7 +1,9 @@
 #include "lists.h"
 
 /**
- *
+ * dlistint_len - cuenta la cantidad de nodos de una lista
+ * @h: primer nodo de la lista
+ * Return: cantidad de nodos
  */
 size_t dlistint_len(const dlistint_t *h)
 {
