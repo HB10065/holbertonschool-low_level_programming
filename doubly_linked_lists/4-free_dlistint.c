@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- *
+ * free_dlistint - liber la memoria de una lista doble
+ * @head: inicio de la lista
  */
 void free_dlistint(dlistint_t *head)
 {
