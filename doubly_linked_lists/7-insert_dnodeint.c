@@ -7,7 +7,7 @@
  * @n: valor que guarda
  * Return: direccion del nuevo nodo, NULL en caso de error
  */
-listint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *new_node, *current;
 	int i = 1;
