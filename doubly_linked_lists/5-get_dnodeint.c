@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * get_dnodeint_at_index - encuentra un nodo en una lista y devuelve su ubicacion
+ * get_dnodeint_at_index - encuentra un nodo y retorna su ubicacion
  * @head: primer nodo de la lista
  * @index: posicion en la lista del nodo a encontrar
  * Return: Ubicacion del nodo, retorna NULL si el nodo no existe
